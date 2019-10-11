@@ -1,10 +1,10 @@
-body {
+body, ol {
 	margin: 0 auto;
 	padding: 0;
 	font-size: 12px;
 }
 
-.container {
+.container, li {
 	width: 80%;
 	margin: 0 auto;
 	padding: 5px;
