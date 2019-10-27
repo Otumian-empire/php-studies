@@ -1,0 +1,2 @@
+Hello there!!!
+I am writing into this file...<?php $name='daniel'; echo $name; ?>
