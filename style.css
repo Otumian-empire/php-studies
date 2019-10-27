@@ -10,4 +10,6 @@ body, ol {
 	padding: 5px;
 }
 
-
+.center {
+	text-align: center;
+}
