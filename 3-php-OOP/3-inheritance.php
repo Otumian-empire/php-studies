@@ -8,6 +8,7 @@
         protected $side2;
         protected $side3;
         protected $side4;
+        public const PI = 3.143;
 
         public function __construct(int $s1, int $s2, int $s3, int $s4)
         {
@@ -28,6 +29,11 @@
                 "s3"=>$this->side3,
                 "s4"=>$this->side4
             );
+        }
+
+        final public function get_type()
+        {
+            return "A quadrilateral and we are making use of " . self::PI;
         }
     }
 
@@ -51,6 +57,14 @@
 
     $rect = new Rectangle(4, 100);
     print_r($rect->get_sides());
+    echo "<br>";echo "<br>";echo "<br>";
+
+    echo $rect->get_type();
+    echo "<br>";
+    echo "We have our PI to be " . $rect::PI;
+    echo "<br>";echo "<br>";
+
+
 ?>
 <html>
 	<head>
@@ -64,6 +78,12 @@
 				<li>extends</li>
 				<li>parent/super</li>
 				<li>child</li>
+                <li>final</li>
+                <li>constant</li>
+                <li>$this</li>
+                <li>self - for constants along side :: in the class</li>
+                <li>-></li>
+                <li>::</li>
 			</ol>
 			
 			<?php ?>
