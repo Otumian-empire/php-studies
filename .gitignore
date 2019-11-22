@@ -1,1 +1,6 @@
 base-html
+*.jpg
+*.jpeg
+*.gif
+*.png
+.gitignore
