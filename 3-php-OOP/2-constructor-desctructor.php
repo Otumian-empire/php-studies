@@ -2,7 +2,7 @@
 
     class Student
     {
-        // two properties
+        // two properties, by default, everything is public
         private $full_name;
         private $id;
 
@@ -51,8 +51,9 @@
 			<ol>
 				<li>contructors - function __contructor</li>
 				<li>destructor</li>
-				<li></li>
-				<li></li>
+				<li>public</li>
+				<li>protected</li>
+                <li>private</li>
 			</ol>
 			
 			<?php ?>
